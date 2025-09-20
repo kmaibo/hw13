@@ -13,7 +13,7 @@ public class Book {
     public String getTitle() {
         return this.title;
     }
-    public Author getAuthor(Author author){
+    public Author getAuthor(){
         return this.author;
     }
 
