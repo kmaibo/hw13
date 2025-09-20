@@ -7,7 +7,8 @@ public class Main {
         bookOne.setYear(1887);
         System.out.println("Книга: " + bookOne.getTitle() + ". Автор: " + authorOne.getFirstName() + authorOne.getLastName() + ". Год публикации: " + bookOne.getYear());
         System.out.println("Книга: " + bookTwo.getTitle() + ". Автор: " + authorTwo.getFirstName() + authorTwo.getLastName() + ". Год публикации: " + bookTwo.getYear());
-        System.out.println(bookOne);
+        bookOne.setAuthor(authorOne);
+        bookTwo.setAuthor(authorTwo);System.out.println(bookOne);
         System.out.println(bookTwo);
         System.out.println(bookOne.equals(bookTwo));
         System.out.println(bookOne.hashCode());

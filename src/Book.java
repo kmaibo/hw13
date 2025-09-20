@@ -31,7 +31,7 @@ public class Book {
 
     @Override
     public String toString() {
-        return "Книга: " + title + ", Автор: " + author + ", Год: " + year;
+        return "Книга: " + title + ", Автор: " + author.toString() + ", Год: " + year;
     }
 
     @Override
@@ -49,3 +49,4 @@ public class Book {
         return Objects.hash(title, year, author);
     }
 }
+
