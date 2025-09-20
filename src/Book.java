@@ -13,7 +13,7 @@ public class Book {
     public String getTitle() {
         return this.title;
     }
-    public Author getAuthor(){
+    public Author getAuthor(Author author){
         return this.author;
     }
 
@@ -31,7 +31,7 @@ public class Book {
 
     @Override
     public String toString() {
-        return "Книга: " + title + ", Автор: " + author + ", Год: " + year;
+        return "Книга: " + title + ", Автор: " + author.toString() + ", Год: " + year;
     }
 
     @Override
